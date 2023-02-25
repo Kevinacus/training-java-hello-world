@@ -4,7 +4,7 @@
 
 
 pipeline {
-	agent any // Default Agent
+	agent none // Default Agent
 
   environment {
 		DOCKERHUB_CREDENTIALS=credentials('dockerhub-cred-adrianscalian')
