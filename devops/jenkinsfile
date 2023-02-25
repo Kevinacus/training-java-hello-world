@@ -2,12 +2,11 @@
 
 //@Library('functions')_
 
-
 pipeline {
 	agent any // Default Agent
 
   environment {
-	  DOCKERHUB_CREDENTIALS=credentials('dockerhub')
+	  DOCKERHUB_CREDENTIALS=credentials('docker-hub')
     //TAG_NAME=getLastGitTag()
 	}
 
