@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../training-java-hello-world2"
+		},
+		{
+			"name": "training-java-hello-world",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
